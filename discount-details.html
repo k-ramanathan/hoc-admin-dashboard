@@ -27,12 +27,12 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>House of Chef</title>
+    <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
 
     <meta name="description" content="" />
 
-    <!-- Favicon
-    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" /> -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -113,12 +113,6 @@
                 <div data-i18n="Analytics">Category</div>
               </a>
             </li>
-            <li class="menu-item">
-              <a href="sub-category" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-layer"></i>
-                <div data-i18n="Analytics">Sub-Category</div>
-              </a>
-            </li>
             <li class="menu-item ">
               <a href="order.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-smile"></i>
@@ -143,13 +137,6 @@
                 <div data-i18n="Analytics">Reviews</div>
               </a>
             </li>
-            <li class="menu-item">
-              <a href="index.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-line-chart"></i>
-                <div data-i18n="Analytics">Analytics</div>
-              </a>
-            </li>
-
           </ul>
         </aside>
         <!-- / Menu -->
@@ -251,36 +238,68 @@
                 <div class="col-xl-12">
                   <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0">Create Discount List</h5>
+                      <h5 class="mb-0">Create Discount</h5>
                     </div>
                     <div class="card-body">
                       <form>
                         <div class="row">
                           <div class="col-md-6">
                             <div class="mb-3">
-                              <label class="form-label" for="basic-default-mobile">Cook Name</label>
+                              <label class="form-label" for="basic-default-mobile">Cook</label>
                               <select id="defaultSelect" class="form-select">
-                                <option value="1">John Doe</option>
-                                <option value="2">Charles Doe</option>
+                                <option value="1">All</option>
+                                <option value="2">John Doe</option>
+                                <option value="3">Charles Doe</option>
+                              </select>
+                            </div>
+                          </div> <div class="col-md-6">
+                            <div class="mb-3">
+                              <label class="form-label" for="basic-default-mobile">Category</label>
+                              <select id="defaultSelect" class="form-select">
+                                <option value="1">All</option>
+                                <option value="2">Category 1</option>
+                                <option value="3">Category 2</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="mb-3">
+                              <label class="form-label" for="basic-default-mobile">Sub-Category</label>
+                              <select id="defaultSelect" class="form-select">
+                                <option value="1">All</option>
+                                <option value="2">Sub-Category 1</option>
+                                <option value="3">Sub-Category 2</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="mb-3">
+                              <label class="form-label" for="basic-default-mobile">Type</label>
+                              <select id="defaultSelect" class="form-select">
+                                <option value="1">Discount</option>
+                                <option value="2">Coupon</option>
+                                <option value="3">Offers</option>
                               </select>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="mb-3">
                               <label class="form-label" for="basic-default-fullname">Offer Name</label>
-                              <select id="defaultSelect" class="form-select">
-                                <option value="1">Good Friday</option>
-                                <option value="2">Ramzan Eid</option>
-                                <option value="3">Diwali</option>
-                              </select>
+                              <input type="text" class="form-control" id="basic-default-fullname" placeholder="Name..." fdprocessedid="y7nca7">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="mb-3">
+                              <label class="form-label" for="basic-default-fullname">Percentage</label>
+                              <input type="text" class="form-control" id="basic-default-fullname" placeholder="Percentage..." fdprocessedid="y7nca7">
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="mb-3">
                               <label for="html5-datetime-local-input" class="col-md-2 col-form-label">EXPIRED AT</label>
-                        <div class="col-md-12">
-                          <input class="form-control" type="datetime-local" value="2021-06-18T12:30:00" id="html5-datetime-local-input">
-                        </div>
+                           <div class="col-md-12">
+                             <input class="form-control" type="datetime-local" value="2021-06-18T12:30:00" id="html5-datetime-local-input">
+                           </div>
                             </div>
                           </div>
                           <div class="demo-inline-spacing d-flex justify-content-end">
